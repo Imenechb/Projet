@@ -1,0 +1,11 @@
+/Users/imenchebbi/Projects/Projet/Projet/bin/Debug/netcoreapp2.0/Projet.deps.json
+/Users/imenchebbi/Projects/Projet/Projet/bin/Debug/netcoreapp2.0/Projet.runtimeconfig.json
+/Users/imenchebbi/Projects/Projet/Projet/bin/Debug/netcoreapp2.0/Projet.runtimeconfig.dev.json
+/Users/imenchebbi/Projects/Projet/Projet/bin/Debug/netcoreapp2.0/Projet.dll
+/Users/imenchebbi/Projects/Projet/Projet/bin/Debug/netcoreapp2.0/Projet.pdb
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.csprojAssemblyReference.cache
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.csproj.CoreCompileInputs.cache
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.AssemblyInfoInputs.cache
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.AssemblyInfo.cs
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.dll
+/Users/imenchebbi/Projects/Projet/Projet/obj/Debug/netcoreapp2.0/Projet.pdb
