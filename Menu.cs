@@ -73,22 +73,4 @@ namespace Projet
     }
 }
 
-        public void StartGame()
-        {
-
-        }
-        public void Load()
-        {
-            //TODO  sauvgarde du jeu pour le reprendre ensuite
-        }
-        public void About()
-        {
-            //TODO A propos le jeu comment il est // un simple tuto eg..
-        }
-        public void Quit()
-        {
-            // TODO Pour quitter le jeu 
-        }
-       
-    }
-}
+      
