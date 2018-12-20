@@ -25,12 +25,27 @@ namespace Projet
         }
         public void PrintMenu()
         {
-            //TODO Affichage du menu
+            int afficherMenu()
+            {
+                int choice = 0;
+                do
+                {
+                    std::cout<< "    |  0-StartGame.             |\n"
+                              << "   |  1- Load.                 |\n"
+                              << "   |  2- About.                |\n"
+                              << "   |  3- Quit                  |\n"
+                              << "Choice: " << std::endl;
+                    std::cin >> choice;
+                }
+                while (choice < 1 || choice > 10);
+
+                return choice;
+            }
+
         }
 
         public int AskChoice(int min, int max)
         {
-            //TODO le choix du joueur 
             int result = int.Parse(Console.ReadLine());
             while (result>max || result>min)
             {
@@ -38,6 +53,26 @@ namespace Projet
             }
             return result;
         }
+        public void StartGame()
+        {
+
+        }
+        public void Load()
+        {
+            //TODO  sauvgarde du jeu pour le reprendre ensuite
+        }
+        public void About()
+        {
+            //TODO A propos le jeu comment il est // un simple tuto eg..
+        }
+        public void Quit()
+        {
+            // TODO Pour quitter le jeu 
+        }
+       
+    }
+}
+
         public void StartGame()
         {
 
