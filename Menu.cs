@@ -1,7 +1,5 @@
 ﻿using System;
-namespace Projet
-{
-    public class Menu
+public class Menu
     {
         public Menu()
         {
@@ -25,23 +23,10 @@ namespace Projet
         }
         public void PrintMenu()
         {
-            int afficherMenu()
-            {
-                int choice = 0;
-                do
-                {
-                    std::cout<< "    |  0-StartGame.             |\n"
-                              << "   |  1- Load.                 |\n"
-                              << "   |  2- About.                |\n"
-                              << "   |  3- Quit                  |\n"
-                              << "Choice: " << std::endl;
-                    std::cin >> choice;
-                }
-                while (choice < 1 || choice > 10);
-
-                return choice;
-            }
-
+            Console.WriteLine("   |  0-StartGame.             ");
+            Console.WriteLine("   |  1- Load.                 ");
+            Console.WriteLine("   |  2- About.                ");
+            Console.WriteLine("   |  3- Quit                  ");                  
         }
 
         public int AskChoice(int min, int max)
@@ -55,8 +40,7 @@ namespace Projet
         }
         public void StartGame()
         {
-             Game game = new Game();
-
+            Game game = new Game();
         }
         public void Load()
         {
@@ -64,14 +48,14 @@ namespace Projet
         }
         public void About()
         {
-            //TODO A propos le jeu comment il est // un simple tuto eg..
+            Console.WriteLine("Bienvenu dans le jeu ")
         }
         public void Quit()
         {
-            // TODO Pour quitter le jeu 
+            Environment.Exit(0);
         }
        
     }
-}
 
-      
+               
+            
