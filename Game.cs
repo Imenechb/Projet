@@ -9,8 +9,6 @@ namespace Projet
         protected int Endurance;
         protected int Taille;
 
-        public string NOMPlayer { get; }
-
         private string NomPlayer;
         public static Equipement[] Inventaire;
         public Player player;
