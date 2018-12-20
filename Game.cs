@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Projet
 {
     public class Game
@@ -16,12 +16,8 @@ namespace Projet
         }
         public void Deplacement()
         {
-            PrintChoice()
-                int choice = AskChoice(0, 4);
-
-
-
-            Console.Write("jsdkjslkzeljkezlkjzlk \\hjkdgklkjdfgjlkdfgljkdfgljk");
+            AfficherMenu();
+            int choice = AskChoice(0, 3);
 
             // TODO Récupérer la case
             // TODO tester le contenu de la case
