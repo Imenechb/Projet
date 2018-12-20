@@ -12,7 +12,7 @@ namespace Projet
         }
         public void StartGame()
         {
-            // TODO le début de jeu
+             Game game = new Game();
         }
         public void Deplacement()
         {
