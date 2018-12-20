@@ -55,6 +55,7 @@ namespace Projet
         }
         public void StartGame()
         {
+             Game game = new Game();
 
         }
         public void Load()
