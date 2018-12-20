@@ -48,7 +48,13 @@ public class Menu
         }
         public void About()
         {
-            Console.WriteLine("Bienvenu dans le jeu ")
+            Console.WriteLine("Bienvenu dans le jeu ");
+            Console.WriteLine("Ce jeu est comme un escape-game, il faut résoudre les énigmes, une fois réuissit on récupère une clé ");
+            Console.WriteLine("Dans quelques cases de la grille il y'a des monstres, il faut leur donner la clé ou le battre pour pouvoir passer ");
+            Console.WriteLine("Vous pouvez à tout moment quitter le jeu");
+            Console.WriteLine("Vous pouvez reprendre la partie à tout moment aussi");
+            Console.WriteLine("Faites vivre votre imagination");
+            Console.WriteLine("Bonne chance");
         }
         public void Quit()
         {
